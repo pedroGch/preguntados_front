@@ -1,0 +1,117 @@
+/* 
+INFORMACION IMPORTANTE !!!
+Esta plantilla css es genérica a todos los sistemas. hace ajustes del materialize en general para adecuarlo a lo que usamos nosotros
+para hacer correcciones de algun sistema en general, usar el archivo CUSTOM.CSS
+*/
+
+// Importa la fuente DIN y la aplica
+@import (css) "../css/font.css";
+
+// Variables de color
+@gba : #009aae;
+@gba-oscuro : #00838f;
+
+nav {
+    background-color: @gba;
+}
+
+header .brand-logo {
+    padding: 0 20px;
+
+    img {
+        height: 65px;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 85%;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+
+@media only screen and (max-width: 992px) {
+    footer.page-footer {
+        padding-left: 0 !important;
+    }
+}
+
+footer.page-footer {
+    margin-top: 20px;
+    // padding-top: 20px;
+    padding-left: 240px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eaeaea;
+    margin-top: 50px;
+
+    a {
+        color: black;
+    }
+
+}
+
+.titulo {
+    font-size: 150%;
+    position: absolute;
+    margin-left: 75px;
+    width: -webkit-fill-available;
+    text-align: center;
+    transition: .3s ease all;
+}
+
+.sideNav-lock .titulo {
+    margin: 0 auto 0 235px;
+}
+
+
+.nav-collapsed .user {
+    display: none;
+    transition: .3s ease all;
+}
+
+#main {
+    min-height: calc(100% - 166px);
+    // padding: 0px;
+}
+
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.btn,
+.btn-large,
+.btn-floating,
+.badge,
+.sidenav li a.active {
+    background-color: @gba-oscuro;
+}
+
+.btn,
+.btn-large {
+    &:hover {
+        background-color: @gba;
+    }
+}
+
+.color-gba-primario {
+    background-color: @gba-oscuro;
+}
+

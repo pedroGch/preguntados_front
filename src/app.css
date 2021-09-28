@@ -1,0 +1,19 @@
+@import './assets/styles/css/vendors.min.css';
+@import './assets/styles/css/materialize.css';
+@import './assets/styles/css/style_vertical.css';
+@import './assets/styles/vendors/perfect-scrollbar/perfect-scrolbar.css';
+@import './assets/styles/css/custom/custom.css';
+
+@import "./assets/styles/css/custom/datepicker.css";
+
+@import "./assets/styles/css/font.css";
+
+/* Descomentar si se utiliza vue-select */
+/* @import '../node_modules/vue-select/dist/vue-select.css'; */
+
+/* @import 'sweetalert2/dist/sweetalert2.min.css'; */
+
+.multiselect__option--highlight {
+  background: #00bcd4;
+}
+

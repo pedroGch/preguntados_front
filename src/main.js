@@ -8,6 +8,8 @@ import 'vue-material/dist/theme/default.css'
 
 Vue.use(VueMaterial)
 
+import "./app.css"
+
 Vue.config.productionTip = false
 
 new Vue({
